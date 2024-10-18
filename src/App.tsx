@@ -1,7 +1,10 @@
 import React from 'react'
+import Invoice from './Invoice'
 
 export default function App() {
   return (
-    <div className='text-red-300'>App</div>
+    <div>
+      <Invoice />
+    </div>
   )
 }
